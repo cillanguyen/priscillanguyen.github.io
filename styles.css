@@ -1,0 +1,104 @@
+/*
+  Name: Priscilla Nguyen
+  Date: 9/29/2022
+  Section: CSE 154 AD
+
+  This CSS file contains all of the decoration for the website.
+  And learning the basics of adding style to a website using CSS
+  commands.
+*/
+body {
+  background-image: url("");
+  font-family: 'Times New Roman', sans-serif;
+  margin: auto;
+  width: 80%;
+}
+
+#intro {
+  margin-top: 50pt;
+  margin-left: 200pt;
+  margin-right: 0pt;
+  padding: 10px;
+}
+
+#intro article {
+  box-shadow: 5px 10px slategray;
+  width: 600pt;
+  padding: 40px 50px;
+  background-color: #F0F2F2;
+}
+
+article, #header a {
+  display: block;
+}
+
+#profile {
+  width: 40%;
+  height: 150px;
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 50%;
+}
+
+h2 {
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+#header {
+  background-color: slategray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#header, .footer {
+  text-align: center;
+}
+
+#header a {
+  flex-wrap: wrap;
+  font-weight: 200;
+  position: relative;
+}
+
+#header a, #projects a {
+  text-decoration: none;
+  color: black;
+}
+
+#header a:hover, #projects a:hover {
+  text-decoration: underline;
+}
+
+#header a:hover {
+  text-decoration-color: aliceblue;
+}
+
+#projects a:hover {
+  text-decoration-color: darkgray;
+}
+
+#intro article, #header a {
+  margin: 15pt;
+}
+
+.footer {
+  padding-top: 50pt;
+  padding-bottom: auto;
+  font-size: 10pt;
+  font-family: monospace;
+}
+
+div {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
