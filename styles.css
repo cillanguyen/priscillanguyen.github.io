@@ -1,22 +1,13 @@
-/*
-  Name: Priscilla Nguyen
-  Date: 9/29/2022
-  Section: CSE 154 AD
-
-  This CSS file contains all of the decoration for the website.
-  And learning the basics of adding style to a website using CSS
-  commands.
-*/
 body {
   background-image: url("");
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'Overpass', sans-serif;
   margin: auto;
   width: 80%;
 }
 
 #intro {
   margin-top: 50pt;
-  margin-left: 200pt;
+  margin-left: 280pt;
   margin-right: 0pt;
   padding: 10px;
 }
@@ -28,28 +19,25 @@ body {
   background-color: #F0F2F2;
 }
 
-article, #header a {
+article,
+#header a {
   display: block;
 }
 
 #profile {
-  width: 40%;
-  height: 40%;
+  width: 100px;
+  height: 100px;
   margin-right: 15px;
   margin-left: 15px;
   border-radius: 50%;
 }
 
-h2 {
-  font-family: 'Helvetica Neue', sans-serif;
-}
-
 #header {
-  background-color: slategray;
+  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
-  width: 25%;
+  width: 15%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -57,7 +45,8 @@ h2 {
   justify-content: center;
 }
 
-#header, .footer {
+#header,
+.footer {
   text-align: center;
 }
 
@@ -67,38 +56,55 @@ h2 {
   position: relative;
 }
 
-#header a, #projects a {
+#header a,
+#projects a {
   text-decoration: none;
   color: black;
 }
 
-#header a:hover, #projects a:hover {
+#header a:hover,
+#projects a:hover {
   text-decoration: underline;
 }
 
 #header a:hover {
-  text-decoration-color: aliceblue;
+  text-decoration-color: black;
 }
 
 #projects a:hover {
-  text-decoration-color: darkgray;
+  text-decoration-color: black;
 }
 
-#intro article, #header a {
+#intro article,
+#header a {
   margin: 15pt;
 }
 
 .footer {
-  padding-top: 50pt;
-  padding-bottom: auto;
+  text-align: center;
+  padding: 50px;
   font-size: 10pt;
+  margin-left: 180px;
   font-family: monospace;
 }
 
-div {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+#about {
+  text-align: center;
+  margin-left: 200px;
+  padding: 3%;
+  font-family: "Overpass", sans-serif;
+  font-size: 2vh;
+  line-height: 1.5em;
+}
+
+#about #name {
+  padding: 3%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#about #selfPic{
+  padding-top: 7%;
+  max-width: 100%;
+  max-height: 100%;
 }
