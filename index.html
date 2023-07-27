@@ -4,27 +4,94 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="styles.css">
-  <title>Priscilla Nguyen</title>
+<!--links to font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito+Sans&family=Poppins&family=Raleway:wght@300&display=swap" rel="stylesheet">
+<title>Priscilla's portfolio</title>
 </head>
 
 <body>
   <section id="header">
+    <script src="script.js"></script>
     <nav>
-      <img id="profile" src="img/mitusha.jpg" alt="anime character holding juice box">
-      <a href="home">Home</a>
-      <a href="projects">Projects</a>
+      <img id="profile" src="img/IMG_7057.JPG" alt="photo of priscilla holding cup of cafe">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#experiences">Experiences</a>
       <a href="about.html">About Me</a>
+      <a class="fixed-size-img" href="mailto:cillangu@uw.edu" target="_blank"><img src="img/email.png" alt="Email logo"></a>
+      <a class="fixed-size-img" href="https://www.linkedin.com/in/priscilla-nguyen-2798181ba/" target="_blank"><img src="img/linkedin.png" alt="linkedin logo"></a>
+      <a class="fixed-size-img" href="https://github.com/cillanguyen" target="_blank"><img src="img/github.png" alt="github logo"></a>
     </nav>
   </section>
   <section id="home">
-    <!--home context goes here-->
+    <div>
+      <h1>hello, xin chao</h1>
+      <h2>I'm Priscilla!</h2>
+      <h3>Welcome to my digital place, portfolio, and <br>introducing me!</h3>
+    </div>
   </section>
   <section id="projects">
-    <!--projects context goes here-->
+    <div class="app-wrapper">
+      <h2 class="header-title">PROJECTS</h2>
+      <div class="all-card-flex"> <!--all of the cards-->
+        <div class="card-flex app-flex"> <!--a single card-->
+          <div class="card-img-flex app-flex"> <!-- content inside the card-->
+            <img src="img/friendify.png" alt="friendify logo">
+            <div>
+              <!--add link to the github https://github.com/info340b-sp23/project-jaycai001-->
+            </div>
+          </div>
+          <div class="card-item-flex">
+            <h4 class="bold-text">Friendify</h4>
+            <p class="p-text">
+              A website that allows users to make friends
+              through the enjoyment of music.
+            </p>
+          </div>
+        </div>
+        <div class="card-flex app-flex"> <!--a single card-->
+          <div class="card-img-flex app-flex"> <!-- content inside the card-->
+            <img src="img/s4s.png" alt="S4S logo">
+            <div>
+              <!--add link to the github https://github.com/info340b-sp23/project-jaycai001-->
+            </div>
+          </div>
+          <div class="card-item-flex">
+            <h4 class="bold-text">S4S</h4>
+            <p class="p-text">
+              "An application that keeps college students alert on activity
+              happening around their campus to make sure everyone is safe"
+            </p>
+          </div>
+        </div>
+        <div class="card-flex app-flex"> <!--a single card-->
+          <div class="card-img-flex app-flex"> <!-- content inside the card-->
+            <img src="img/trayup.png" alt="tray up logo">
+            <div>
+              <!--add link to the github https://github.com/info340b-sp23/project-jaycai001-->
+            </div>
+          </div>
+          <div class="card-item-flex">
+            <h4 class="bold-text">Tray Up</h4>
+            <p class="p-text">
+              "A website that allows students and low-income family
+              find the resources that they need."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="experiences">
+    <div>
+      <h2 class="header-title">SKILLS AND EXPERIENCES</h2>
+    </div>
   </section>
   <footer class="footer">
     <div>
-      <p>© 2023 priscilla nguyen. All rights reserved.</p>
+      <p>© 2023 priscilla nguyen. All rights reserved. made with matcha love</p>
     </div>
   </footer>
 </body>
