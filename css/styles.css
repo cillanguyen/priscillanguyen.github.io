@@ -1,0 +1,130 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: auto;
+  width: 80%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.app_body {
+ margin-left: 13%;
+}
+
+
+#profile {
+  width: 110px;
+  height: 120px;
+  margin: 15px;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+#header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 2in;
+  background-color: #C1D1A7;
+  overflow-y: auto;
+}
+
+#header,
+.footer {
+  text-align: center;
+}
+
+.fixed-size-img img {
+  width: 25px;
+  height: 25px;
+}
+
+#header a {
+  flex-wrap: wrap;
+  font-weight: 200;
+  padding: 2px 0;
+  display: block;
+}
+
+#header a,
+#projects a {
+  text-decoration: none;
+  color: black;
+}
+
+#header a:hover,
+#projects a:hover {
+  text-decoration: underline;
+}
+
+#header a:hover {
+  text-decoration-color: black;
+}
+
+#projects a:hover {
+  text-decoration-color: black;
+}
+
+#intro article,
+#header a {
+  margin: 15pt;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px;
+  font-size: 10pt;
+}
+
+.header-title {
+  text-align: center;
+  padding-top: 2em;
+  position: relative;
+}
+
+.header-title::before,
+.header-title::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  width: calc(100% + 80px); /* Adjust the width of the lines */
+  height: 1px; /* Adjust the height of the lines */
+  background-color: black; /* Adjust the color of the lines */
+}
+
+.header-title::before {
+  left: -20px; /* Position the left line to the left of the title */
+}
+
+.header-title::after {
+  right: -20px; /* Position the right line to the right of the title */
+}
+
+/* home page */
+
+#home {
+  text-align: center;
+}
+
+#home h3 {
+  padding-top: 1em;
+}
+
+#home h2 {
+  color: #5E723E;
+  font-size: 40px;
+}
+
+#home h1 {
+  font-size: 20px;
+  padding-top: 12em;
+}
