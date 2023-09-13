@@ -1,17 +1,11 @@
 body {
   font-family: 'Inter', sans-serif;
-  margin: auto;
-  width: 80%;
+  margin: 0;
 }
 
 h1, h2, h3, h4 {
   font-family: 'Poppins', sans-serif;
 }
-
-.app_body {
- margin-left: 13%;
-}
-
 
 #profile {
   width: 110px;
@@ -89,24 +83,6 @@ h1, h2, h3, h4 {
   text-align: center;
   padding-top: 2em;
   position: relative;
-}
-
-.header-title::before,
-.header-title::after {
-  content: '';
-  position: absolute;
-  top: 20%;
-  width: calc(100% + 80px); /* Adjust the width of the lines */
-  height: 1px; /* Adjust the height of the lines */
-  background-color: black; /* Adjust the color of the lines */
-}
-
-.header-title::before {
-  left: -20px; /* Position the left line to the left of the title */
-}
-
-.header-title::after {
-  right: -20px; /* Position the right line to the right of the title */
 }
 
 /* home page */
